@@ -1,0 +1,10 @@
+.\targets\stm32f4_discovery\ff.o: Libraries\00-STM32_LIBRARIES\fatfs\ff.c
+.\targets\stm32f4_discovery\ff.o: Libraries\00-STM32_LIBRARIES\fatfs\ff.h
+.\targets\stm32f4_discovery\ff.o: Libraries\00-STM32_LIBRARIES\fatfs\integer.h
+.\targets\stm32f4_discovery\ff.o: Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h
+.\targets\stm32f4_discovery\ff.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\targets\stm32f4_discovery\ff.o: Libraries\00-STM32_LIBRARIES\fatfs\diskio.h
+.\targets\stm32f4_discovery\ff.o: .\User\defines.h
+.\targets\stm32f4_discovery\ff.o: .\Libraries\00-STM32_LIBRARIES\attributes.h
+.\targets\stm32f4_discovery\ff.o: Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h
+.\targets\stm32f4_discovery\ff.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
