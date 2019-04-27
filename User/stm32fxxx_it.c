@@ -55,7 +55,7 @@ extern ALE_USART_Handle ahus2;
 
 extern uint32_t tiempo;
 extern uint8_t  beacon;
-extern uint16_t TPS, ECT, RPM, Lambda;
+extern uint16_t TPS, ECT, RPM, Lambda, OILTEMP, MAF;
 extern uint16_t IAT, BAT, VSS, ACCFUEL;
 extern int SCHEDULER;
 extern BUFFER BUFF;

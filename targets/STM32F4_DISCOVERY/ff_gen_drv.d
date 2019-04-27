@@ -5,7 +5,7 @@
 .\targets\stm32f4_discovery\ff_gen_drv.o: .\User\defines.h
 .\targets\stm32f4_discovery\ff_gen_drv.o: .\Libraries\00-STM32_LIBRARIES\attributes.h
 .\targets\stm32f4_discovery\ff_gen_drv.o: Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h
-.\targets\stm32f4_discovery\ff_gen_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\targets\stm32f4_discovery\ff_gen_drv.o: C:\Alex\programas\ARM\ARMCC\Bin\..\include\stdlib.h
 .\targets\stm32f4_discovery\ff_gen_drv.o: Libraries\00-STM32_LIBRARIES\fatfs\ff.h
 .\targets\stm32f4_discovery\ff_gen_drv.o: Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h
-.\targets\stm32f4_discovery\ff_gen_drv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\targets\stm32f4_discovery\ff_gen_drv.o: C:\Alex\programas\ARM\ARMCC\Bin\..\include\stdint.h

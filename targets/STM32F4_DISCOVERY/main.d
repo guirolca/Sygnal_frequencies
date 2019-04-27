@@ -4,7 +4,7 @@
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h
-.\targets\stm32f4_discovery\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\targets\stm32f4_discovery\main.o: C:\Alex\programas\ARM\ARMCC\Bin\..\include\stdint.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cmInstr.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cmFunc.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cmSimd.h
@@ -15,7 +15,7 @@
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-.\targets\stm32f4_discovery\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\targets\stm32f4_discovery\main.o: C:\Alex\programas\ARM\ARMCC\Bin\..\include\stdio.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h
@@ -81,12 +81,12 @@
 .\targets\stm32f4_discovery\main.o: User\main.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\tm_stm32_disco.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\tm_stm32_delay.h
-.\targets\stm32f4_discovery\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\targets\stm32f4_discovery\main.o: C:\Alex\programas\ARM\ARMCC\Bin\..\include\stdlib.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\tm_stm32_usb_host.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\tm_stm32_usb.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h
-.\targets\stm32f4_discovery\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\targets\stm32f4_discovery\main.o: C:\Alex\programas\ARM\ARMCC\Bin\..\include\string.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_def.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_ioreq.h
 .\targets\stm32f4_discovery\main.o: .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h

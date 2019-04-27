@@ -35,7 +35,7 @@ extern FRESULT fres;
 extern char MOUNT[];
 extern char OPEN[];
 
-extern uint16_t TPS, ECT, RPM, Lambda, MAP, MGP, OILSTATE;
+extern uint16_t TPS, ECT, RPM, Lambda, MAP, MGP, OILSTATE, OILTEMP, MAF;
 extern uint16_t IAT, BAT, VSS, ACCFUEL;
 extern uint32_t SWSens, CurrentSens, DamperRR, DamperRL,batteryCurrent;
 extern uint16_t BrakePressF, BrakePressR, DamperFR, DamperFL;
@@ -219,7 +219,9 @@ void USBReadBlock(void)
 	add16tobuffer(ACCFUEL,&BUFF);    //25
 	add16tobuffer(MAP,&BUFF);        //27
 	add16tobuffer(MGP,&BUFF); 			 //29
+	add16tobuffer(MAF,&BUFF); 			 //29
 	add16tobuffer(OILSTATE,&BUFF);	 	 //31
+	add16tobuffer(OILTEMP,&BUFF); 			 //29
 //	add8tobuffer(GEAR_CUT,&BUFF);
 
 	add16tobuffer(speedFR_p,&BUFF);  //33
@@ -364,6 +366,10 @@ void ReadCANData(CanRxMsgTypeDef* Msg) //Read CAN Messages
 							MGP=ReadCanData(Msg,2,2);
 							OILSTATE=ReadCanData(Msg,4,2);
 //							GEAR_CUT=ReadCanData(Msg,6,1);
+				break;
+				case 130:
+							OILTEMP=ReadCanData(Msg,0,2);
+							MAF=ReadCanData(Msg,2,2);
 				break;
 				///////// FRONT MODULE DATA /////////
 				case 220:
@@ -890,6 +896,8 @@ void sendTelemetry(void)
 	buffer_append_int16(txData,BAT,&ind);
 	buffer_append_int16(txData,MAP,&ind);
 	buffer_append_int16(txData,IAT,&ind);
+	buffer_append_int16(txData,MAF,&ind);
+	buffer_append_int16(txData,OILTEMP,&ind);
 	buffer_append_int16(txData,speedFL_p,&ind);
 	buffer_append_int16(txData,speedFR_p,&ind);
 	buffer_append_int16(txData,speedRL_p,&ind);
@@ -1343,7 +1351,9 @@ void configDataBlocks(void)
 	BUFF.sizes[ACCFUEL] = 16;
 	BUFF.sizes[MAP] = 16;
 	BUFF.sizes[MGP] = 16;
+	BUFF.sizes[MAF] = 16;
 	BUFF.sizes[OILSTATE] = 16;
+	BUFF.sizes[OILTEMP] = 16;
 	BUFF.sizes[SPEED_FR] = 16;
 	BUFF.sizes[SPEED_FL] = 16;
 	BUFF.sizes[SPEED_RR] = 16;

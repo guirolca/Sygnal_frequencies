@@ -59,7 +59,7 @@ FIL fil;
 FRESULT fres;
 
 volatile uint32_t tiempo=0;
-volatile uint16_t TPS=0, ECT=0, RPM=0, Lambda=0, MAP=0, MGP=0, OILSTATE=0;
+volatile uint16_t TPS=0, ECT=0, RPM=0, Lambda=0, MAP=0, MGP=0, OILSTATE=0, OILTEMP=0, MAF=0;
 volatile uint16_t IAT=0, BAT=0, VSS=0, ACCFUEL=0;
 volatile uint8_t GEAR, beacon=0, GEAR_CUT=0;
 volatile uint16_t SWSens=0, CurrentSens=0, DamperRR=0, DamperRL=0;
