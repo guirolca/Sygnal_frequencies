@@ -2224,7 +2224,7 @@ I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spdifrx.h)(
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_delay.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_delay.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_delay.crf --depend .\targets\stm32f4_discovery\tm_stm32_delay.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_delay.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2304,7 +2304,7 @@ I (C:\Alex\programas\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_disco.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_disco.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_disco.crf --depend .\targets\stm32f4_discovery\tm_stm32_disco.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_disco.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2383,7 +2383,7 @@ I (Libraries\00-STM32_LIBRARIES\tm_stm32_gpio.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_fatfs.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_fatfs.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_fatfs.crf --depend .\targets\stm32f4_discovery\tm_stm32_fatfs.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_fatfs.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2469,7 +2469,7 @@ I (C:\Alex\programas\ARM\ARMCC\include\string.h)(0x588BD7A4)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_fonts.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_fonts.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_fonts.crf --depend .\targets\stm32f4_discovery\tm_stm32_fonts.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_fonts.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2549,7 +2549,7 @@ I (C:\Alex\programas\ARM\ARMCC\include\string.h)(0x588BD7A4)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_gpio.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_gpio.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_gpio.crf --depend .\targets\stm32f4_discovery\tm_stm32_gpio.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_gpio.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2627,7 +2627,7 @@ I (Libraries\00-STM32_LIBRARIES\tm_stm32_rcc.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_i2c.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_i2c.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_i2c.crf --depend .\targets\stm32f4_discovery\tm_stm32_i2c.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_i2c.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2707,7 +2707,7 @@ I (Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_mpu6050.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_mpu6050.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_mpu6050.crf --depend .\targets\stm32f4_discovery\tm_stm32_mpu6050.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_mpu6050.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2788,7 +2788,7 @@ I (Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_rcc.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_rcc.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_rcc.crf --depend .\targets\stm32f4_discovery\tm_stm32_rcc.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_rcc.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2866,7 +2866,7 @@ I (Libraries\00-STM32_LIBRARIES\tm_stm32_gpio.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_rtc.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_rtc.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_rtc.crf --depend .\targets\stm32f4_discovery\tm_stm32_rtc.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_rtc.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -2946,7 +2946,7 @@ I (Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_spi.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_spi.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_spi.crf --depend .\targets\stm32f4_discovery\tm_stm32_spi.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_spi.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -3026,7 +3026,7 @@ I (Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_usb.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_usb.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_usb.crf --depend .\targets\stm32f4_discovery\tm_stm32_usb.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_usb.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -3113,7 +3113,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_pipes.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_ctlreq.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_buffer.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_buffer.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_buffer.crf --depend .\targets\stm32f4_discovery\tm_stm32_buffer.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_buffer.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (C:\Alex\programas\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
 I (C:\Alex\programas\ARM\ARMCC\include\string.h)(0x588BD7A4)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
@@ -3267,11 +3267,11 @@ I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cec.h)(0x5C
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_fmpi2c.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_fmpi2c_ex.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spdifrx.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_usb_host.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_usb_host.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_usb_host.crf --depend .\targets\stm32f4_discovery\tm_stm32_usb_host.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_usb_host.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -3359,7 +3359,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_ctlreq.h)(0x5C9673DF)
 F (.\Libraries\00-STM32_LIBRARIES\tm_stm32_usb_host_msc.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\tm_stm32_usb_host_msc.o --omf_browse .\targets\stm32f4_discovery\tm_stm32_usb_host_msc.crf --depend .\targets\stm32f4_discovery\tm_stm32_usb_host_msc.d)
 I (Libraries\00-STM32_LIBRARIES\tm_stm32_usb_host_msc.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -3455,9 +3455,9 @@ I (.\Libraries\00-STM32_LIBRARIES\fatfs\integer.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\fatfs\diskio.h)(0x5C9673DF)
 F (.\User\main.h)(0x5C9673DF)()
-F (.\User\main.c)(0x5CC4765F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\main.o --omf_browse .\targets\stm32f4_discovery\main.crf --depend .\targets\stm32f4_discovery\main.d)
+F (.\User\main.c)(0x5CE92702)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\main.o --omf_browse .\targets\stm32f4_discovery\main.crf --depend .\targets\stm32f4_discovery\main.d)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -3577,7 +3577,7 @@ I (User\TC.h)(0x5C9673DF)
 F (.\User\stm32fxxx_it.c)(0x5CC4765F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\stm32fxxx_it.o --omf_browse .\targets\stm32f4_discovery\stm32fxxx_it.crf --depend .\targets\stm32f4_discovery\stm32fxxx_it.d)
 I (User\stm32fxxx_it.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -3911,7 +3911,7 @@ I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spdifrx.h)(
 I (User\mxconstants.h)(0x5C9673DF)
 I (.\Libraries\FSUPV\ALE_USART_F4.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_rcc.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_gpio.h)(0x5C9673DF)
 I (.\Libraries\FSUPV\ALE_GPIO_F4.h)(0x5C9673DF)
@@ -3950,7 +3950,7 @@ I (.\Libraries\00-STM32_LIBRARIES\fatfs\diskio.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_rtc.h)(0x5C9673DF)
 I (User\Funciones.h)(0x5CC4765F)
 I (User\main.h)(0x5C9673DF)
-F (.\User\Funciones.c)(0x5CC4765F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\funciones.o --omf_browse .\targets\stm32f4_discovery\funciones.crf --depend .\targets\stm32f4_discovery\funciones.d)
+F (.\User\Funciones.c)(0x5CE92703)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\funciones.o --omf_browse .\targets\stm32f4_discovery\funciones.crf --depend .\targets\stm32f4_discovery\funciones.d)
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_conf.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x5C9673DF)
@@ -4026,7 +4026,7 @@ I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_fmpi2c_ex.h
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spdifrx.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_usb_host.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_rcc.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_gpio.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_usb.h)(0x5C9673DF)
@@ -4068,7 +4068,7 @@ I (User\TC.h)(0x5C9673DF)
 I (User\USBfunc.h)(0x5C9673DF)
 F (.\User\USBfunc.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\usbfunc.o --omf_browse .\targets\stm32f4_discovery\usbfunc.crf --depend .\targets\stm32f4_discovery\usbfunc.d)
 I (User\USBfunc.h)(0x5C9673DF)
-I (User\defines.h)(0x5CC4765F)
+I (User\defines.h)(0x5CE92F54)
 I (User\Funciones.h)(0x5CC4765F)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
@@ -4301,7 +4301,7 @@ I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spdifrx.h)(
 F (.\Libraries\FSUPV\ALE_USART_F4.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\ale_usart_f4.o --omf_browse .\targets\stm32f4_discovery\ale_usart_f4.crf --depend .\targets\stm32f4_discovery\ale_usart_f4.d)
 I (Libraries\FSUPV\ALE_USART_F4.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4386,7 +4386,7 @@ I (Libraries\FSUPV\packet.h)(0x5C9673DF)
 I (C:\Alex\programas\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_lcd.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4541,11 +4541,11 @@ I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_fmpi2c.h)(0
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_fmpi2c_ex.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spdifrx.h)(0x5C9673DF)
 I (User\TC.h)(0x5C9673DF)
-I (User\defines.h)(0x5CC4765F)
+I (User\defines.h)(0x5CE92F54)
 F (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Src\usbh_conf.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\usbh_conf.o --omf_browse .\targets\stm32f4_discovery\usbh_conf.crf --depend .\targets\stm32f4_discovery\usbh_conf.d)
 I (.\Libraries\00-STM32_LIBRARIES\tm_stm32_usb.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4633,7 +4633,7 @@ F (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Src\usbh_core.c)(0x5C9673DF)(-c 
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4721,7 +4721,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_ctlreq.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4807,7 +4807,7 @@ F (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Src\usbh_ioreq.c)(0x5C9673DF)(-c
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_ioreq.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4895,7 +4895,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_pipes.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -4982,7 +4982,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc\usbh_msc.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -5072,7 +5072,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc\usbh_msc_bot.h)(0x5C967
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -5162,7 +5162,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc\usbh_msc.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_core.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc\usbh_conf.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\stm32fxxx_hal.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f4xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include\stm32f446xx.h)(0x5C9673DF)
 I (.\Libraries\00-HAL_DRIVERS\cmsis\Include\core_cm4.h)(0x5C9673DF)
@@ -5250,7 +5250,7 @@ I (.\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc\usbh_msc_scsi.h)(0x5C96
 F (.\Libraries\00-STM32_LIBRARIES\fatfs\diskio.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\diskio.o --omf_browse .\targets\stm32f4_discovery\diskio.crf --depend .\targets\stm32f4_discovery\diskio.d)
 I (Libraries\00-STM32_LIBRARIES\fatfs\diskio.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\fatfs\integer.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h)(0x5C9673DF)
 I (C:\Alex\programas\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
@@ -5350,7 +5350,7 @@ I (Libraries\00-STM32_LIBRARIES\fatfs\integer.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h)(0x5C9673DF)
 I (C:\Alex\programas\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
 I (Libraries\00-STM32_LIBRARIES\fatfs\diskio.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 I (C:\Alex\programas\ARM\ARMCC\include\stdarg.h)(0x588BD7A4)
 F (.\Libraries\00-STM32_LIBRARIES\fatfs\option\syscall.c)(0x5C9673DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 -Otime --apcs=interwork -I .\User -I .\TM -I .\Libraries\00-HAL_DRIVERS\STM32F4xx_HAL_Driver\Inc -I .\Libraries\00-STM32_LIBRARIES -I .\Libraries\00-STM32_LIBRARIES\USB_Host\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Host\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\fatfs -I .\Libraries\00-STM32_LIBRARIES\fatfs\drivers -I .\Libraries\00-STM32_LIBRARIES\fatfs\option -I .\Libraries\FSUPV -I .\Libraries\00-HAL_DRIVERS\cmsis\Include -I .\Libraries\00-HAL_DRIVERS\cmsis\device\st\stm32f4xx\Include -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Core\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device\class\MSC\Inc -I .\Libraries\00-STM32_LIBRARIES\USB_Device -I .\Libraries\00-STM32_LIBRARIES\USB_Device\Class\CDC\Inc-I.\RTE\_STM32F4_DISCOVERY-IC:\Alex\programas\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Alex\programas\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F446xx -DSTM32F407xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -D__FPU_PRESENT="1" -DSTM32F4XX -DSTM32F4_DISCOVERY -DHSE_VALUE="8000000" -DRCC_OSCILLATORTYPE="RCC_OSCILLATORTYPE_HSE" -DRCC_PLLM="8" -DRCC_PLLN="336" -DRCC_PLLP="2" -DRCC_PLLQ="7" --C99-o .\targets\stm32f4_discovery\syscall.o --omf_browse .\targets\stm32f4_discovery\syscall.crf --depend .\targets\stm32f4_discovery\syscall.d)
@@ -5368,7 +5368,7 @@ F (.\Libraries\00-STM32_LIBRARIES\fatfs\drivers\fatfs_usb.c)(0x5C9673DF)(-c --cp
 I (Libraries\00-STM32_LIBRARIES\fatfs\drivers\fatfs_usb.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\fatfs\diskio.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\fatfs\integer.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 I (.\Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h)(0x5C9673DF)
 I (C:\Alex\programas\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)
@@ -5467,7 +5467,7 @@ F (.\Libraries\00-STM32_LIBRARIES\fatfs\ff_gen_drv.c)(0x5C9673DF)(-c --cpu Corte
 I (Libraries\00-STM32_LIBRARIES\fatfs\ff_gen_drv.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\fatfs\diskio.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\fatfs\integer.h)(0x5C9673DF)
-I (.\User\defines.h)(0x5CC4765F)
+I (.\User\defines.h)(0x5CE92F54)
 I (.\Libraries\00-STM32_LIBRARIES\attributes.h)(0x5C9673DF)
 I (Libraries\00-STM32_LIBRARIES\fatfs\ffconf.h)(0x5C9673DF)
 I (C:\Alex\programas\ARM\ARMCC\include\stdlib.h)(0x588BD7A4)

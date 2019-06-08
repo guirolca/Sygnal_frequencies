@@ -59,7 +59,7 @@ extern uint16_t TempRLTireMO, TempRLTireMI, TempRRTireMO, TempRRTireMI;
 extern uint32_t countFL, countFR, countRL, countRR;
 extern uint32_t Caudalim_w, Caudalim_p;
 extern uint16_t Termopar_A, Termopar_B, Termopar_C, Termopar_D, Termopar_E, Termopar_F, Termopar_G, Termopar_H, Termopar_I, Termopar_J, Termopar_K, Termopar_L;
-extern uint16_t cellVoltage1,cellVoltage2,cellVoltage3,cellVoltage4;
+extern uint16_t cellVoltage1,cellVoltage2,cellVoltage3,cellVoltage4, InjEPW;
 
 extern uint8_t ADQOK;
 
@@ -219,10 +219,10 @@ void USBReadBlock(void)
 	add16tobuffer(ACCFUEL,&BUFF);    //25
 	add16tobuffer(MAP,&BUFF);        //27
 	add16tobuffer(MGP,&BUFF); 			 //29
-	add16tobuffer(MAF,&BUFF); 			 //29
-	add16tobuffer(OILSTATE,&BUFF);	 	 //31
-	add16tobuffer(OILTEMP,&BUFF); 			 //29
-//	add8tobuffer(GEAR_CUT,&BUFF);
+	add16tobuffer(MAF,&BUFF); 			 //31
+	add16tobuffer(OILSTATE,&BUFF);	 //31
+	add16tobuffer(OILTEMP,&BUFF); 	 //29
+	add8tobuffer(GEAR_CUT,&BUFF);		 //
 
 	add16tobuffer(speedFR_p,&BUFF);  //33
 	add16tobuffer(speedFL_p,&BUFF);  //35
@@ -298,6 +298,7 @@ void USBReadBlock(void)
 	
 	add8tobuffer(shift_up_req,&BUFF);         //125
 	add8tobuffer(shift_dn_req,&BUFF);         //126
+	add16tobuffer(InjEPW,&BUFF);							//128
 //	
 //	add8tobuffer(GEAR,&BUFF);                 //180
 //	add32tobuffer(TC_cut_time_req,&BUFF);     //184
@@ -365,11 +366,12 @@ void ReadCANData(CanRxMsgTypeDef* Msg) //Read CAN Messages
 							MAP=ReadCanData(Msg,0,2);
 							MGP=ReadCanData(Msg,2,2);
 							OILSTATE=ReadCanData(Msg,4,2);
-//							GEAR_CUT=ReadCanData(Msg,6,1);
+							GEAR_CUT=ReadCanData(Msg,6,1);
 				break;
 				case 130:
 							OILTEMP=ReadCanData(Msg,0,2);
 							MAF=ReadCanData(Msg,2,2);
+							InjEPW=ReadCanData(Msg,4,2);
 				break;
 				///////// FRONT MODULE DATA /////////
 				case 220:
@@ -896,8 +898,8 @@ void sendTelemetry(void)
 	buffer_append_int16(txData,BAT,&ind);
 	buffer_append_int16(txData,MAP,&ind);
 	buffer_append_int16(txData,IAT,&ind);
-	buffer_append_int16(txData,MAF,&ind);
-	buffer_append_int16(txData,OILTEMP,&ind);
+//	buffer_append_int16(txData,MAF,&ind);
+//	buffer_append_int16(txData,OILTEMP,&ind);
 	buffer_append_int16(txData,speedFL_p,&ind);
 	buffer_append_int16(txData,speedFR_p,&ind);
 	buffer_append_int16(txData,speedRL_p,&ind);

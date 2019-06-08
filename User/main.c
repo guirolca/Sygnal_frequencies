@@ -76,7 +76,7 @@ volatile uint16_t speedFR_p, speedFL_p;
 volatile uint32_t countFL=0, countFR=0, countRL=0, countRR=0;
 volatile uint32_t Caudalim_w=0, Caudalim_p=0;
 volatile uint16_t Termopar_A=0, Termopar_B=0, Termopar_C=0, Termopar_D=0, Termopar_E=0, Termopar_F=0, Termopar_G=0, Termopar_H=0, Termopar_I=0, Termopar_J=0, Termopar_K=0, Termopar_L=0;
-volatile uint16_t cellVoltage1=0,cellVoltage2=0,cellVoltage3=0,cellVoltage4=0;
+volatile uint16_t cellVoltage1=0,cellVoltage2=0,cellVoltage3=0,cellVoltage4=0, InjEPW=0;
 
 //volatile uint16_t numberLap=0;
 volatile uint8_t overTime=0;
