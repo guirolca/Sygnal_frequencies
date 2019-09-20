@@ -1,6 +1,11 @@
 #ifndef MAIN__H
 #define MAIN__H
-
+typedef struct
+{
+	float Combustions;
+	float SR_target;
+	unsigned short SR_read;
+}TC_Parameters;
 typedef struct
 {
 	unsigned char GNGLL[40]; 

@@ -100,6 +100,9 @@ volatile uint8_t USBRead=0;
 volatile uint8_t telemetry_flag=0;
 volatile uint8_t telemetry=0;
 volatile uint32_t time=0;
+volatile Selector_TC SelectorTC=TC_OFF;
+volatile Selector_DAid SelectorDAid=DAid_OFF;
+volatile TC_Parameters TC;
 
 volatile uint8_t LCSFlag=0;
 float slip_R, slip_L;

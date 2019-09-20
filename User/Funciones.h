@@ -53,7 +53,24 @@ typedef enum {
 	USB_DEVICE_CDC,
 	USB_OFF
 } USB_MODE;
-
+typedef enum
+{
+	DAid_OFF=0,
+	FTS,
+	LC,
+	FTS_AS,
+	FTS_LC,
+	FTS_LC_AS,
+}Selector_DAid;
+typedef enum
+{
+	TC_OFF=0,
+	MODE1,
+	MODE2,
+	MODE3,
+	MODE4,
+	MODE5
+}Selector_TC;
 typedef struct {
 	uint16_t MLX;
 	uint16_t CAN;

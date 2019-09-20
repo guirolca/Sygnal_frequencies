@@ -28,6 +28,8 @@ extern USART_HandleTypeDef huart2;
 extern TIM_HandleTypeDef htim7;
 extern ALE_USART_Handle ahus;
 extern ALE_USART_Handle ahus2;
+extern Selector_TC SelectorTC;
+extern Selector_DAid SelectorDAid;
 
 extern FATFS FATFS_USB_FS, FATFS_USB_HS;
 extern FIL fil;
@@ -220,72 +222,72 @@ void USBReadBlock(void)
 	add16tobuffer(MAP,&BUFF);        //27
 	add16tobuffer(MGP,&BUFF); 			 //29
 	add16tobuffer(MAF,&BUFF); 			 //31
-	add16tobuffer(OILSTATE,&BUFF);	 //31
-	add16tobuffer(OILTEMP,&BUFF); 	 //29
-	add8tobuffer(GEAR_CUT,&BUFF);		 //
+	add16tobuffer(OILSTATE,&BUFF);	 //33
+	add16tobuffer(OILTEMP,&BUFF); 	 //35
+	add8tobuffer(GEAR_CUT,&BUFF);		 //36
 
-	add16tobuffer(speedFR_p,&BUFF);  //33
-	add16tobuffer(speedFL_p,&BUFF);  //35
-	add16tobuffer(speedRL_p,&BUFF);  //37
-	add16tobuffer(speedRR_p,&BUFF);  //39
+	add16tobuffer(speedFR_p,&BUFF);  //38
+	add16tobuffer(speedFL_p,&BUFF);  //40
+	add16tobuffer(speedRL_p,&BUFF);  //42
+	add16tobuffer(speedRR_p,&BUFF);  //44
 	
-	add16tobuffer(DamperFR,&BUFF);	 //41
-	add16tobuffer(DamperFL,&BUFF);   //43
-	add16tobuffer(DamperRL,&BUFF);   //45
-	add16tobuffer(DamperRR,&BUFF);   //47
+	add16tobuffer(DamperFR,&BUFF);	 //46
+	add16tobuffer(DamperFL,&BUFF);   //48
+	add16tobuffer(DamperRL,&BUFF);   //50
+	add16tobuffer(DamperRR,&BUFF);   //52
 
-	add16tobuffer(BrakePressF,&BUFF);//49
-	add16tobuffer(BrakePressR,&BUFF);//51
+	add16tobuffer(BrakePressF,&BUFF);//54
+	add16tobuffer(BrakePressR,&BUFF);//56
 	
-	add16tobuffer(TempFRTireO,&BUFF);//53
+	add16tobuffer(TempFRTireO,&BUFF);//58
 	TempFRTireM=(TempFRTireMI+TempFRTireMO)/2;
-	add16tobuffer(TempFRTireM,&BUFF);//55
-	add16tobuffer(TempFRTireI,&BUFF);//57
+	add16tobuffer(TempFRTireM,&BUFF);//60
+	add16tobuffer(TempFRTireI,&BUFF);//62
 	
-	add16tobuffer(TempFLTireO,&BUFF);//59
+	add16tobuffer(TempFLTireO,&BUFF);//64
 	TempFLTireM=(TempFLTireMI+TempFLTireMO)/2;
-	add16tobuffer(TempFLTireM,&BUFF);//61
-	add16tobuffer(TempFLTireI,&BUFF);//63
+	add16tobuffer(TempFLTireM,&BUFF);//66
+	add16tobuffer(TempFLTireI,&BUFF);//68
 	
-	add16tobuffer(TempRRTireO,&BUFF);//65
+	add16tobuffer(TempRRTireO,&BUFF);//70
 	TempRRTireM=(TempRRTireMI+TempRRTireMO)/2;
-	add16tobuffer(TempRRTireM,&BUFF);//67
-	add16tobuffer(TempRRTireI,&BUFF);//69
+	add16tobuffer(TempRRTireM,&BUFF);//72
+	add16tobuffer(TempRRTireI,&BUFF);//74
 	
-	add16tobuffer(TempRLTireO,&BUFF);//71
+	add16tobuffer(TempRLTireO,&BUFF);//76
 	TempRLTireM=(TempRLTireMI+TempRLTireMO)/2;
-	add16tobuffer(TempRLTireM,&BUFF);//73
-	add16tobuffer(TempRLTireI,&BUFF);//75
+	add16tobuffer(TempRLTireM,&BUFF);//78
+	add16tobuffer(TempRLTireI,&BUFF);//80
 	
-	add16tobuffer(TempFRDisc,&BUFF); //77
-	add16tobuffer(TempFLDisc,&BUFF); //79
-	add16tobuffer(TempRRDisc,&BUFF); //81
-	add16tobuffer(TempRLDisc,&BUFF); //83
+	add16tobuffer(TempFRDisc,&BUFF); //82
+	add16tobuffer(TempFLDisc,&BUFF); //84
+	add16tobuffer(TempRRDisc,&BUFF); //86
+	add16tobuffer(TempRLDisc,&BUFF); //88
 	
-	add16tobuffer(SWSens,&BUFF);		 //85
-	add16tobuffer(CurrentSens,&BUFF);//87
+	add16tobuffer(SWSens,&BUFF);		 //90
+	add16tobuffer(CurrentSens,&BUFF);//92
 
-	add16tobuffer(IMU.Accelerometer_X,&BUFF); //89
-	add16tobuffer(IMU.Accelerometer_Y,&BUFF); //91
-	add16tobuffer(IMU.Accelerometer_Z,&BUFF); //93
-	add16tobuffer(IMU.Gyroscope_X,&BUFF);     //95
-	add16tobuffer(IMU.Gyroscope_Y,&BUFF); 		//97
-	add16tobuffer(IMU.Gyroscope_Z,&BUFF); 		//99
+	add16tobuffer(IMU.Accelerometer_X,&BUFF); //94
+	add16tobuffer(IMU.Accelerometer_Y,&BUFF); //96
+	add16tobuffer(IMU.Accelerometer_Z,&BUFF); //98
+	add16tobuffer(IMU.Gyroscope_X,&BUFF);     //100
+	add16tobuffer(IMU.Gyroscope_Y,&BUFF); 		//102
+	add16tobuffer(IMU.Gyroscope_Z,&BUFF); 		//104
 	
-	add16tobuffer(Termopar_A,&BUFF);		 			//101
-	add16tobuffer(Termopar_B,&BUFF);          //103
-	add16tobuffer(Termopar_C,&BUFF);   				//105
-	add16tobuffer(Termopar_D,&BUFF);   				//107
+	add16tobuffer(Termopar_A,&BUFF);		 			//106
+	add16tobuffer(Termopar_B,&BUFF);          //108
+	add16tobuffer(Termopar_C,&BUFF);   				//110
+	add16tobuffer(Termopar_D,&BUFF);   				//112
 	
-	add16tobuffer(Termopar_E,&BUFF); 					//109
-	add16tobuffer(Termopar_F,&BUFF); 					//111
-	add16tobuffer(Termopar_G,&BUFF); 					//113
-	add16tobuffer(Termopar_H,&BUFF); 					//115	
+	add16tobuffer(Termopar_E,&BUFF); 					//114
+	add16tobuffer(Termopar_F,&BUFF); 					//116
+	add16tobuffer(Termopar_G,&BUFF); 					//118
+	add16tobuffer(Termopar_H,&BUFF); 					//120	
 	
-	add16tobuffer(Termopar_I,&BUFF); 					//117
-	add16tobuffer(Termopar_J,&BUFF); 					//119
-	add16tobuffer(Termopar_K,&BUFF); 					//121
-	add16tobuffer(Termopar_L,&BUFF); 					//123
+	add16tobuffer(Termopar_I,&BUFF); 					//122
+	add16tobuffer(Termopar_J,&BUFF); 					//124
+	add16tobuffer(Termopar_K,&BUFF); 					//126
+	add16tobuffer(Termopar_L,&BUFF); 					//128
 	
 //	add16tobuffer(cellVoltage1,&BUFF);				//109
 //	add16tobuffer(cellVoltage2,&BUFF);				//111
@@ -294,12 +296,12 @@ void USBReadBlock(void)
 //	
 //	add32tobuffer(batteryCurrent,&BUFF);			//119
 		
-	add8tobuffer(beacon,&BUFF);							//124
+	add8tobuffer(beacon,&BUFF);							//129
 	
-	add8tobuffer(shift_up_req,&BUFF);         //125
-	add8tobuffer(shift_dn_req,&BUFF);         //126
-	add16tobuffer(InjEPW,&BUFF);							//128
-//	
+	add8tobuffer(shift_up_req,&BUFF);         //130
+	add8tobuffer(shift_dn_req,&BUFF);         //131
+	add16tobuffer(InjEPW,&BUFF);							//133
+  add8tobuffer(SelectorDAid,&BUFF);
 //	add8tobuffer(GEAR,&BUFF);                 //180
 //	add32tobuffer(TC_cut_time_req,&BUFF);     //184
 //	add8tobuffer(SR_target,&BUFF);						//185
@@ -308,17 +310,17 @@ void USBReadBlock(void)
 //	add16tobuffer(SR_req,&BUFF);              //189
 //	add16tobuffer(SR_Raw,&BUFF); 							//191
 
-		add16tobuffer(lapTimeMilis,&BUFF);				//128
-    add8tobuffer(overTime,&BUFF);							//129
+		add16tobuffer(lapTimeMilis,&BUFF);				//135
+    add8tobuffer(overTime,&BUFF);							//136
 		
-		add8tobuffer(GPS.GNGLL[0],&BUFF);
-		add8tobuffer(GPS.GNGLL[1],&BUFF);
-		add8tobuffer(GPS.GNGLL[2],&BUFF);
-		add8tobuffer(GPS.GNGLL[3],&BUFF);
-		add8tobuffer(GPS.GNGLL[4],&BUFF);
-		add8tobuffer(GPS.GNGLL[5],&BUFF);
-		add8tobuffer(GPS.GNGLL[6],&BUFF);
-		add8tobuffer(GPS.GNGLL[7],&BUFF); 			//137
+		add8tobuffer(GPS.GNGLL[0],&BUFF);					//137
+		add8tobuffer(GPS.GNGLL[1],&BUFF);					//138
+		add8tobuffer(GPS.GNGLL[2],&BUFF);					//139
+		add8tobuffer(GPS.GNGLL[3],&BUFF);					//140
+		add8tobuffer(GPS.GNGLL[4],&BUFF);					//141
+		add8tobuffer(GPS.GNGLL[5],&BUFF);					//142
+		add8tobuffer(GPS.GNGLL[6],&BUFF);					//143
+		add8tobuffer(GPS.GNGLL[7],&BUFF); 			  //144
 	
 	
 //	addStoptobuffer(&BUFF);          				
@@ -443,6 +445,11 @@ void ReadCANData(CanRxMsgTypeDef* Msg) //Read CAN Messages
 //							tempExt2=ReadCanData(Msg,4,2);
 //				break;
 				/////////DRIVER AID MODULE///////////
+				case 500:
+							SelectorTC=ReadCanData(Msg,0,1);
+							SelectorDAid=ReadCanData(Msg,1,1);
+							
+				break;
 				case 610:
 							speedFR_p=ReadCanData(Msg,0,2);
 							speedFL_p=ReadCanData(Msg,2,2);
