@@ -227,21 +227,8 @@ int main(void)
 								
 							  USBRead &= 0xFE; // Reset flag
 					  }
-						
-						
-						if(USBRead & 0x02)
-					  {
-						  	USBReadBlock2();
-							  cnt+=DATASIZE2;
-							  if(cnt>BLOCKSIZE)
-							  {
-							  		cnt-=BLOCKSIZE;
-							 	  	SCHEDULER=USBWrite;
-							  }
-							  USBRead &= 0xFD; // Reset flag
-					  }
 
-						
+			
 					  if(telemetry_flag==1)
 					  {
 						  sendTelemetry();

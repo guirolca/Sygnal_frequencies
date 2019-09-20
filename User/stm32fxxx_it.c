@@ -228,15 +228,12 @@ void TIM3_IRQHandler(void)
 //	  USBRead=1;
 //	}
 	
-	if(!(time % 50))
+	if(!(time % 2))
 	{
 		USBRead |= 0x01;
 	}
+
 	
-	if(!(time % 10))
-	{
-		USBRead |= 0x02;
-	}
 	
 	if(time % (1000/configADQ.TELEMETRY) == 0)
 	{
